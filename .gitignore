@@ -1,0 +1,15 @@
+# React frontend
+frontend/node_modules/
+frontend/dist/
+
+# Spring Boot backend
+backend/target/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Logs and IDE files
+*.log
+.idea/
