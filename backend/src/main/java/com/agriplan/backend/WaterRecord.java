@@ -29,7 +29,6 @@ public class WaterRecord {
     public WaterRecord() {
     }
 
-    // Automatically set the date and time before inserting a new record
     @PrePersist
     public void setRecordedAtBeforeSave() {
         if (this.recordedAt == null) {
@@ -61,8 +60,7 @@ public class WaterRecord {
         return soilMoisturePercent;
     }
 
-    public void setSoilMoisturePercent(
-            Double soilMoisturePercent) {
+    public void setSoilMoisturePercent(Double soilMoisturePercent) {
         this.soilMoisturePercent = soilMoisturePercent;
     }
 

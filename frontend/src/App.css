@@ -186,3 +186,56 @@ footer { padding: 20px; text-align: center; color: #718076; font-size: 13px; }
   .history-table td::before { content: attr(data-label); flex: 0 0 42%; color: #52695a; font-weight: 700; text-align: left; }
   .history-table td:last-child { border-bottom: 0; }
 }
+
+.recommendation-action {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.recommendation-dry {
+  background: #fff1f0;
+  color: #a12622;
+  border-left: 4px solid #d94841;
+}
+
+.recommendation-monitor {
+  background: #e8f7ed;
+  color: #176b43;
+  border-left: 4px solid #219653;
+}
+
+.recommendation-wet {
+  background: #fff4d6;
+  color: #825500;
+  border-left: 4px solid #d99a13;
+}
+
+.irrigation-recommendation p {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+.irrigation-recommendation {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.irrigation-recommendation p {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.recommendation-action {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
