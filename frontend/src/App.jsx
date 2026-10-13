@@ -3,9 +3,8 @@ import { useState, useEffect } from "react";
 import WaterMonitoring from "./WaterMonitoring";
 import DashboardStats from "./DashboardStats";
 import "./App.css";
-
-const API_URL = "http://localhost:8080/api/farms";
-const WATER_API_URL = "http://localhost:8080/api/water-records";
+const API_URL = "https://agriwater-tlpz.onrender.com/api/farms";
+const WATER_API_URL = "https://agriwater-tlpz.onrender.com/api/water-records";
 
 function App() {
   const emptyForm = {
