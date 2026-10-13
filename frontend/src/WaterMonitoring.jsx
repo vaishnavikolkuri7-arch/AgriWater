@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-const API_URL = "http://localhost:8080/api/water-records";
-const FARM_API_URL = "http://localhost:8080/api/farms";
+const API_URL = "https://agriwater-tlpz.onrender.com/api/water-records";
+const FARM_API_URL = "https://agriwater-tlpz.onrender.com/api/farms";
 // Format the timestamp returned by the backend for display in the table.
 function formatRecordedAt(recordedAt) {
   if (!recordedAt) {

@@ -10,9 +10,8 @@ import {
   Tooltip,
   CartesianGrid,
 } from "recharts";
-
-const FARMS_API = "http://localhost:8080/api/farms";
-const RECORDS_API = "http://localhost:8080/api/water-records";
+const FARMS_API = "https://agriwater-tlpz.onrender.com/api/farms";
+const RECORDS_API = "https://agriwater-tlpz.onrender.com/api/water-records";
 
 function getDate(value) {
   if (!value) return null;
