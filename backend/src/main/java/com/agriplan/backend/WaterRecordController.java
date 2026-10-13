@@ -18,7 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/water-records")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://wondrous-jalebi-46e9d6.netlify.app"
+})
 public class WaterRecordController {
 
     private final WaterRecordRepository waterRecordRepository;

@@ -18,7 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/farms")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://wondrous-jalebi-46e9d6.netlify.app"
+})
 public class FarmController {
 
     private final FarmRepository farmRepository;
